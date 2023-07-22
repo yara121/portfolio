@@ -7,8 +7,8 @@
 /* Custom Properties, update these for your own design */
 
 :root {
-  --ff-primary: 'Lora', serif;
-  --ff-secondary: 'Roboto Slab', serif;
+  --ff-primary: "Lora", serif;
+  --ff-secondary: "Roboto Slab", serif;
 
   --fw-reg: 400;
   --fw-bold: 700;
@@ -230,7 +230,7 @@ header {
 
 .hamburger::before,
 .hamburger::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -256,6 +256,11 @@ header {
 .section__subtitle--intro {
   display: inline-block;
 }
+.btn-visit {
+  width: 100px;
+  margin-top: 5px;
+  text-align: center;
+}
 
 @media (min-width: 600px) {
   .intro {
@@ -264,8 +269,8 @@ header {
     margin: 0 auto;
     grid-column-gap: 1em;
     grid-template-areas:
-      'img title'
-      'img subtitle';
+      "img title"
+      "img subtitle";
     grid-template-columns: min-content max-content;
   }
 
@@ -284,6 +289,11 @@ header {
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
+  }
+  .btn-visit {
+    width: 100px;
+    text-align: center;
+    font-weight: 800;
   }
 }
 
@@ -304,7 +314,7 @@ header {
 }
 
 .section__title--services::after {
-  content: '';
+  content: "";
   display: block;
   width: 2em;
   height: 1px;
@@ -349,9 +359,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 200px;
     grid-template-areas:
-      'title img'
-      'subtitle img'
-      'text img';
+      "title img"
+      "subtitle img"
+      "text img";
     grid-column-gap: 2em;
   }
 
